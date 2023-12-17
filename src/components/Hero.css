@@ -1,7 +1,7 @@
-/* Hero.css */
+
 
 .hero-section {
-    background: linear-gradient(to left, #6b8e23, #79bd93); /* Adjust the color stops as needed */
+    background: linear-gradient(to left, #6b8e23, #79bd93);
     padding: 50px 0;
     height: 80vh;
   }
@@ -36,12 +36,12 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-/* Customize the PrimeReact Button color */
+
 .p-button-primary {
-    background-color: #4CAF50; /* Green color */
-    color: #ffffff; /* Text color */
+    background-color: #4CAF50; 
+    color: #ffffff; 
 }
   
 .p-button-primary:hover {
-    background-color: #45a049; /* Darker green on hover */
+    background-color: #45a049;
 }

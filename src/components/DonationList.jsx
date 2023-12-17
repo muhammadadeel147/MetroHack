@@ -1,4 +1,4 @@
-// DonationList.js
+
 
 import React from 'react';
 import { DataTable } from 'primereact/datatable';
@@ -16,7 +16,7 @@ const DonationList = () => {
     { id: 1, name: 'John Doe', quantity: 10, foodName: 'Canned Goods', country: 'USA' },
     { id: 2, name: 'Jane Smith', quantity: 5, foodName: 'Fresh Produce', country: 'Canada' },
     { id: 3, name: 'Alice Johnson', quantity: 8, foodName: 'Dry Grains', country: 'UK' },
-    // Add more dummy data as needed
+   
   ];
 
   return (

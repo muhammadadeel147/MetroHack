@@ -1,24 +1,19 @@
-// VideoSection.js
+
 
 import React from 'react';
-import YouTube from 'react-youtube';
 import './VideoSection.css';
-
+import img from '../Assets/6.jpg'; 
 const VideoSection = () => {
-  const videoId = 'QvkDDA62-tw'; // Replace with the actual YouTube video ID
-
-  const opts = {
-     // Adjust the height as needed
-    width: '640',
-    playerVars: {
-      autoplay: 0, // Change to 1 if you want autoplay
-    },
-  };
-
   return (
     <div className="video-section">
       <div className="video-container">
-        <YouTube videoId={videoId} opts={opts} />
+        <img
+          src={img} 
+          alt="Placeholder Image"
+          width="640"
+          height="360" 
+          className="video-image"
+        />
       </div>
       <div className="info-section">
         <h2>Why Donate Food?</h2>

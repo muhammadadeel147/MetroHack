@@ -1,4 +1,4 @@
-// ContactForm.js
+
 import React from 'react';
 import { InputText } from 'primereact/inputtext';
 import { InputTextarea } from 'primereact/inputtextarea';
@@ -12,12 +12,11 @@ import img from "../Assets/5.jpg"
 const ContactForm = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Handle form submission logic here
+   
 
-    // For demonstration purposes, show the success toast immediately upon form submission
     toast.success('Your message has been sent successfully!', {
       position: 'top-right',
-      autoClose: 3000, // 3 seconds
+      autoClose: 3000,
       hideProgressBar: true,
       closeOnClick: true,
       pauseOnHover: true,
@@ -48,7 +47,7 @@ const ContactForm = () => {
         </Panel>
       </div>
       <div className="form-image">
-        {/* Replace 'your_image_url' with the actual URL of your image */}
+        
         <img src={img} alt="Contact" />
       </div>
       <ToastContainer position="top-right" autoClose={3000} hideProgressBar newestOnTop closeOnClick rtl pauseOnFocusLoss draggable pauseOnHover />

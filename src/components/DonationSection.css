@@ -1,8 +1,7 @@
-/* DonationSection.css */
-/* DonationSection.css or your stylesheet file */
+
 .donation-item-image {
-    width: 100%; /* Adjust the width as needed */
-    height: auto; /* Maintain aspect ratio */
+    width: 100%;
+    height: auto; 
   }
   
 .donation-section {
@@ -27,16 +26,16 @@
     margin-right: 15px;
   }
   
-  /* Add this new class to style the grid layout */
+
   .donation-items-grid {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
   }
   
-  /* Apply the grid layout to each donation item */
+ 
   .donation-item {
-    width: calc(33.33% - 15px); /* 33.33% width with 15px margin in between items */
+    width: calc(33.33% - 15px); 
     box-sizing: border-box;
   }
   

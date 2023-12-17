@@ -1,9 +1,9 @@
-// DonateNow.js
+
 import React, { useState } from 'react';
 import { InputText } from 'primereact/inputtext';
 
-import './DonateNow.css'; // Create a separate CSS file for styling
-import { toast, ToastContainer } from 'react-toastify'; // Import toast
+import './DonateNow.css'; 
+import { toast, ToastContainer } from 'react-toastify'; 
 import 'react-toastify/dist/ReactToastify.css';
 import { useNavigate } from 'react-router-dom';
 import { CountryDropdown, RegionDropdown } from 'react-country-region-selector';
@@ -19,7 +19,7 @@ const DonateNow = () => {
    
     toast.success('Donation successful!', {
       position: 'top-right',
-      autoClose: 3000, // 3 seconds
+      autoClose: 3000,
       hideProgressBar: true,
       closeOnClick: true,
       pauseOnHover: true,
@@ -70,7 +70,7 @@ const DonateNow = () => {
           id="country"
           value={country}
           onChange={(val) => setCountry(val)}
-          className="country-dropdown" // Add this class
+          className="country-dropdown" 
         />
       </div>
 
@@ -81,7 +81,7 @@ const DonateNow = () => {
           country={country}
           value={region}
           onChange={(val) => setRegion(val)}
-          className="region-dropdown" // Add this class
+          className="region-dropdown" 
         />
       </div>
 

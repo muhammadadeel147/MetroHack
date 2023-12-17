@@ -1,10 +1,9 @@
-/* AboutUs.css */
 
 .about-us-section {
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../Assets/3.jpg');
     background-size: cover;
     background-position: center;
-    color: #fff; /* Text color for better readability on the dark background */
+    color: #fff; 
     padding: 50px 0;
   }
   .about-us-content {
@@ -33,6 +32,6 @@
   
   .about-us-image {
     width: 40%;
-    /* Add any additional styling for the image */
+    
   }
   

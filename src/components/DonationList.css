@@ -1,4 +1,4 @@
-/* DonateNow.css */
+
 
 .donate-now-container {
   max-width: 400px;
@@ -18,7 +18,7 @@ h1 {
   margin-bottom: 1rem;
 }
 
-/* Style for CountryDropdown */
+
 .country-dropdown {
   width: 100%;
   padding: 0.5rem;
@@ -28,7 +28,7 @@ h1 {
   background-color: #fff;
 }
 
-/* Style for RegionDropdown */
+
 .region-dropdown {
   width: 100%;
   padding: 0.5rem;

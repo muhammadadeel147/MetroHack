@@ -1,4 +1,4 @@
-// HungryChildrenGallery.js
+
 
 import React, { useState } from 'react';
 import { Carousel } from 'primereact/carousel';
@@ -11,6 +11,7 @@ import img5 from "../Assets/6.jpg"
 import img6 from "../Assets/7.jpg"
 const HungryChildrenGallery = () => {
   const [images, setImages] = useState([
+    { source: img , alt: 'Hungry Child 1', title: 'Hungry Child ' },
     { source: img1, alt: 'Hungry Child 1', title: 'Hungry Child ' },
     { source: img6, alt: 'Hungry Child 1', title: 'Hungry Child ' },
     { source: img3, alt: 'Hungry Child 1', title: 'Hungry Child ' },
