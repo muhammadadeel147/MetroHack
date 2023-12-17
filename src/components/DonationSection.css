@@ -1,0 +1,42 @@
+/* DonationSection.css */
+/* DonationSection.css or your stylesheet file */
+.donation-item-image {
+    width: 100%; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+  }
+  
+.donation-section {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 30px;
+  }
+  
+  .donation-item {
+    margin-bottom: 15px;
+  }
+  
+  .donation-item-content {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+  }
+  
+  .donation-item-image {
+    width: 60px;
+    height: 60px;
+    margin-right: 15px;
+  }
+  
+  /* Add this new class to style the grid layout */
+  .donation-items-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  /* Apply the grid layout to each donation item */
+  .donation-item {
+    width: calc(33.33% - 15px); /* 33.33% width with 15px margin in between items */
+    box-sizing: border-box;
+  }
+  

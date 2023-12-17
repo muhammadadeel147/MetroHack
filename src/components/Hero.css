@@ -1,0 +1,47 @@
+/* Hero.css */
+
+.hero-section {
+    background: linear-gradient(to left, #6b8e23, #79bd93); /* Adjust the color stops as needed */
+    padding: 50px 0;
+    height: 80vh;
+  }
+  
+.hero-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+  
+.hero-text {
+    width: 50%;
+}
+  
+.hero-text h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+   
+}
+  
+.hero-text p {
+    font-size: 1rem;
+    color: #fff;
+    margin-bottom: 30px;
+}
+  
+.hero-image img {
+    width: 100%;
+    border-radius: 100px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Customize the PrimeReact Button color */
+.p-button-primary {
+    background-color: #4CAF50; /* Green color */
+    color: #ffffff; /* Text color */
+}
+  
+.p-button-primary:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
